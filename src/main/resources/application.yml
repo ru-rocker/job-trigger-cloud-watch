@@ -1,0 +1,8 @@
+server:
+  port: 9999
+
+aws:
+  config:
+    access-key-id: ${ACCESS_KEY_ID}
+    access-secret-key: ${ACCESS_SECRET_KEY}
+    parameter-store-key: /job-trigger-lambda/api_key
